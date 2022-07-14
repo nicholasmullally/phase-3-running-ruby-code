@@ -18,3 +18,6 @@ describe 'the program' do
     expect { load 'app.rb' }.to output(a_string_including("[1, 2, 3]\n")).to_stdout
   end
 end
+
+puts "Hello World!"
+
